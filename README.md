@@ -1,1 +1,1 @@
-# Sky-Bank-AI-Powered-Banking-System
+# Sky Bank: The AI Powered Banking System
