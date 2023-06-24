@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(../imges/bnk-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 20px;
+  }
+
+.login-form{
+    font-family: 'Roboto Slab', serif;
+    width: 500px;
+    margin: 24px auto;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    color: black;
+    overflow: hidden;
+}
+
+.login-form h2{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+form{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.login-form .title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.login-form input{
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.login-form .login-btn {
+    background-color: rgba(43, 194, 225, 0.4);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 24px 0;
+    width: auto;
+}
+
+.login-form a{
+    color: black;
+}
+
+@media (max-width: 750px) {
+
+    body {
+        height: auto;
+        padding-top: 70px;
+    }
+
+    .login-form {
+        padding-top: 0;
+        width: 90%;
+        max-width: 500px;
+    }
+}

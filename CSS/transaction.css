@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background: url(../imges/bnk-bg.jpg) center / cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 90px;
+}
+
+.container{
+    backdrop-filter: blur(3px);
+}
+
+.row > h2{
+    font-family: 'Prompt', sans-serif;
+    color: black;
+    font-size: 40px;
+}
+
+.logo {
+    height: 60px;
+    width: 200px;
+}
+
+.navbar {
+    background-color: #9da3a4;
+}
+
+.nav-link {
+    margin-right: 50px;
+}
+
+.row{
+    padding: 10px;
+}
+.depo{
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+.depo label{
+    font-size: 30px;
+}
+
+.depo input{
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.depo .btn{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.depo form .login-btn{
+    align-content: center;
+    background-color: rgba(43, 194, 225, 0.4);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    width: auto;
+}
+

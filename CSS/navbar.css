@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../imges/bnk-bg.jpg) center / cover;
+  min-height: 100vh;
+  padding-top: 90px;
+}
+
+.logo{
+  height: 60px;
+  width: 200px;
+}
+
+.navbar{
+  background-color: #9da3a4;
+}
+
+.nav-link{
+  margin-right: 50px;
+}

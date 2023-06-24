@@ -1,0 +1,153 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Howdy",
+                "How are you?",
+                "What's up?",
+                "Good morning",
+                "Wake up!",
+                "How is it going?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Shut up",
+                "Don't talk",
+                "Goodbye",
+                "Have a nice day",
+                "I quit"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later!",
+                "Have a fabulous day!",
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "What can I call you?",
+                "Can you tell me your name?",
+                "Who are you?",
+                "Please tell me your name"
+            ],
+            "responses": [
+                "My creator has given me the name Arjun",
+                "You can call me Arjun",
+                "I am your chatbot Arjun",
+                "I'm Arjun"
+            ]
+        },
+        {
+            "tag": "transact",
+            "patterns": [
+                "Can you help me with the transaction?",
+                "How to transact money?",
+                "How to transfer money to someone's account?",
+                "Where is transaction tab?",
+                "Want to send money",
+                "Transact money"
+            ],
+            "responses": [
+                "First in the navbar click on transaction, then got to the internal or external transfer wherever you like fill in detail and click on transact.",
+                "(Navbar)Transaction > Fill details > CLick button : Now that's easy isn't it! ;)"
+            ]
+        },
+        {
+            "tag": "deposit",
+            "patterns": [
+                "Can you help me with the deposit?",
+                "How to deposit money?",
+                "How to deposit money into my account?",
+                "Deposit money",
+                "Where is deposit tab?",
+                "Want to deposit money"
+            ],
+            "responses": [
+                "First in the navbar click on transaction, then got to the internal transfer wherever you like fill in detail and click on deposit.",
+                "(Navbar)Click Transaction > Fill details > CLick button : Now that's easy isn't it! ;)"
+            ]
+        },
+        {
+            "tag": "graph",
+            "patterns": [
+                "How is the graph generated",
+                "Is the graph accurate?",
+                "What does the graph do?",
+                "Why is my graph not showing anything?"
+            ],
+            "responses": [
+                "The graph is generated on data collected from your account 28th of every month and it shows your expenditure throughout the year"
+            ]
+        },
+        {
+            "tag": "pie",
+            "patterns": [
+                "How is the pie chart generated",
+                "Is the pie char accurate?",
+                "What does the pie char do?",
+                "Why is my pie chart blank?"
+            ],
+            "responses": [
+                "The pie chart is generated on data collected from your account everyday so if you haven't performed any tansactions it will not show any data."
+            ]
+        },
+        {
+            "tag": "statement",
+            "patterns": [
+                "Where is statement tab?",
+                "How to see my transaction history?",
+                "My history",
+                "Show transacted money details"
+            ],
+            "responses": [
+                "First in the navbar click on statement, Now you will be able to see your transaction history ",
+                "(Navbar)Click Statement > Now you will be able to see your transaction history Now that's easy isn't it! ;)"
+            ]
+        },
+        {
+            "tag": "tools",
+            "patterns": [
+                "What is loan tools?",
+                "How can loan tools help me?",
+                "Can loan predictor really predict 100%",
+                "Can E-cal really breakdown my loan in emi's?",
+                "Is it really 100% accurate?"
+            ],
+            "responses": [
+                "Loan tools helps you in calculating Emis' and predicting your approval status. It is not 100% accurate but it gives you a clarity to how much you should expect"
+            ]  
+        },
+        {
+            "tag": "random",
+            "patterns":[
+                "Can you do math?",
+                "Can you tell me your code?",
+                "Whose your creator?",
+                "What did come first egg or human",
+                "What is your gender",
+                "Are you single"
+            ],
+            "responses": [
+                "Can't Understand your question",
+                "I didn't understand",
+                "Please ask question related to website"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../imges/bnk-bg.jpg) center / cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px ;
+}
+
+.logo {
+    height: 60px;
+    width: 200px;
+}
+
+.navbar {
+    background-color: #9da3a4;
+}
+
+.nav-link {
+    margin-right: 50px;
+}
+
+table{
+    width: 100%;
+}
+
+main.table{
+    font-family: 'Roboto', sans-serif;
+    width: 50vw;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    color: black;
+    overflow: hidden;
+}
+
+.table_header{
+    font-family: 'Prompt', sans-serif;
+    width: 100%;
+    height: 12%;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    padding: .8rem 1rem;
+}
+
+.table_body{
+    width: 95%;
+    max-height: 80%;
+    margin: .8rem auto;
+    background-color:  rgba(255, 255, 255, 0.4);
+    border-radius: .6rem;
+
+    overflow: auto;
+}
+
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+
+    visibility: hidden;
+}
+
+.table_body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+
+table, th, td{
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+
+thead th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d4d4d4;
+}
+
+tbody tr:nth-child(even){
+    background-color: #0000000b;
+}
+
+tbody tr:hover{
+    background-color: #fff6;
+}
+
+@media (max-width: 750px) {
+
+    main.table{
+        width: 90vw;
+    }
+
+    .table_header{
+        height: 10%;
+    }
+
+}

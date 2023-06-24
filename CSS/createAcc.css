@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imges/bnk-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 5px;
+}
+
+h2{
+    font-family: 'Prompt', sans-serif;
+}
+
+.reg-form{
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    margin: 24px auto;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    color: black;
+    overflow: hidden;
+}
+
+.reg-form form{
+    padding: 32px;
+}
+
+.reg-form form .details{
+    margin-top: 30px;
+}
+
+.reg-form form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-fields{
+    width: calc(100% / 2 - 11px);
+    display: flex;
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-fields{
+    margin: 8px 0;
+}
+
+form .fields .txtarea{
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    padding: 10px;
+    resize: none;
+    height: 100px;
+}
+
+input{
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.check{
+    text-align: center;
+}
+
+
+.acc-btn{
+    background-color: rgba(43, 194, 225, 0.4);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 24px 0;
+}
+
+.check a{
+    color: black;
+}
+
+@media (max-width: 750px) {
+
+    body {
+        height: auto;
+    }
+
+    .reg-form {
+        padding-top: 0;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    form .fields .input-fields{
+        width: calc(100% / 2 - 11px);
+        display: flex;
+        flex-direction: column;
+        margin: 4px 0;
+    }
+
+    form .fields .txtarea{
+        width: 360px;
+    }
+}
