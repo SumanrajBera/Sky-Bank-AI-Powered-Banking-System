@@ -5,16 +5,28 @@
 
 body {
     background: url(../imges/bnk-bg.jpg) center / cover;
-    background-repeat: no-repeat;
     min-height: 100vh;
-    padding: 30px 5px;
+    padding-top: 70px;
 }
 
-h2{
+.logo {
+    height: 60px;
+    width: 200px;
+}
+
+.navbar {
+    background-color: #9da3a4;
+}
+
+.nav-link {
+    margin-right: 50px;
+}
+
+h2 {
     font-family: 'Prompt', sans-serif;
 }
 
-.reg-form{
+.reg-form {
     font-family: 'Roboto', sans-serif;
     width: 700px;
     margin: 24px auto;
@@ -26,48 +38,51 @@ h2{
     overflow: hidden;
 }
 
-.reg-form form{
+.reg-form form {
     padding: 32px;
 }
 
-.reg-form form .details{
+.reg-form form .details {
     margin-top: 30px;
 }
 
-.reg-form form .fields{
+.reg-form form .fields {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-form .fields .input-fields{
+form .fields .input-fields {
     width: calc(100% / 2 - 11px);
     display: flex;
     flex-direction: column;
     margin: 4px 0;
 }
 
-.input-fields{
+.input-fields {
     margin: 8px 0;
 }
 
-input{
+input {
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(5px);
     box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
     border-radius: 8px;
     padding: 10px;
-    text-align: center;
     width: 100%;
 }
 
-.check{
+.input-fields .dropdown-item {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.check {
     text-align: center;
 }
 
 
-.acc-btn{
+.acc-btn {
     background-color: rgba(43, 194, 225, 0.4);
     box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
     border-radius: 8px;
@@ -78,7 +93,7 @@ input{
     margin: 24px 0;
 }
 
-.check a{
+.check a {
     color: black;
 }
 
@@ -90,7 +105,7 @@ input{
         max-width: 500px;
     }
 
-    form .fields .input-fields{
+    form .fields .input-fields {
         width: calc(100% / 2 - 11px);
         display: flex;
         flex-direction: column;

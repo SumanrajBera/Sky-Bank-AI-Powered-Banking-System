@@ -39,6 +39,17 @@ body {
     margin: 10px;
 }
 
+.charst{
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
+    border-radius: 8px;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
 .box-detail{
     display: flex;
     flex-direction: column;

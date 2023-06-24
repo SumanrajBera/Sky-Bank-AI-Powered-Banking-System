@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background: url(../imges/bnk-bg.jpg) center / cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 90px;
+    backdrop-filter: blur(3px);
+}
+
+.logo {
+    height: 60px;
+    width: 200px;
+}
+
+.navbar {
+    background-color: #9da3a4;
+}
+
+.nav-link {
+    margin-right: 50px;
+}
+
+.row{
+    padding: 10px;
+}
+
+main{
+    text-align: center;
+}
+main h1{
+    color: rgba(255, 255, 255, 0.84);
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 2px rgb(172, 172, 125);
+    margin-top: 150px;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+main p{
+    color: rgba(0, 0, 0, 0.84);
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-family: 'Merriweather', serif;
+}

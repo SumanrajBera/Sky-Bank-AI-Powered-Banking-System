@@ -1,22 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
+  }
+  
+  body {
     background: url(../imges/bnk-bg.jpg) center / cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    padding: 30px 5px;
-}
+    padding-top: 10px;
+  }
 
-h2{
-    font-family: 'Prompt', sans-serif;
-}
-
-.reg-form{
-    font-family: 'Roboto', sans-serif;
-    width: 700px;
+.login-form{
+    font-family: 'Roboto Slab', serif;
+    width: 500px;
     margin: 24px auto;
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(5px);
@@ -26,33 +22,27 @@ h2{
     overflow: hidden;
 }
 
-.reg-form form{
-    padding: 32px;
+.login-form h2{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
 }
 
-.reg-form form .details{
-    margin-top: 30px;
-}
-
-.reg-form form .fields{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-form .fields .input-fields{
-    width: calc(100% / 2 - 11px);
+form{
+    padding: 100px;
     display: flex;
     flex-direction: column;
-    margin: 4px 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
-.input-fields{
-    margin: 8px 0;
+.login-form .title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
-input{
+.login-form input{
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(5px);
     box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
@@ -62,12 +52,7 @@ input{
     width: 100%;
 }
 
-.check{
-    text-align: center;
-}
-
-
-.acc-btn{
+.login-form .login-btn {
     background-color: rgba(43, 194, 225, 0.4);
     box-shadow: 0 12px 50px -11px rgb(169, 169, 169);
     border-radius: 8px;
@@ -76,24 +61,23 @@ input{
     font-weight: 900;
     cursor: pointer;
     margin: 24px 0;
+    width: auto;
 }
 
-.check a{
+.login-form a{
     color: black;
 }
 
 @media (max-width: 750px) {
 
-    .reg-form {
+    body {
+        height: auto;
+        padding-top: 70px;
+    }
+
+    .login-form {
         padding-top: 0;
         width: 90%;
         max-width: 500px;
-    }
-
-    form .fields .input-fields{
-        width: calc(100% / 2 - 11px);
-        display: flex;
-        flex-direction: column;
-        margin: 4px 0;
     }
 }
