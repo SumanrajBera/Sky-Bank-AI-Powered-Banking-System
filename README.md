@@ -1,12 +1,13 @@
 # Sky Bank: The AI Powered Banking System
 ## Technologies used
 ### Frontend
--> HTML
--> CSS
--> PHP
+HTML, CSS and JS
 
 ### Backend
--> MySQL
+PHP, Python and MySQL
+
+## For mailing
+I have made use of php mailer
 
 ## Links
 UI design: https://www.figma.com/design/op23QEUhSa9thZuOq9NutA/Banking-System-with-Implementation-of-Chatbot?m=auto&t=i6IdvuPnsMSkcfV9-6
